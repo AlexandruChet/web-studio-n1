@@ -7,5 +7,10 @@
   }
   
   footer{
-    background-color: darkblue;
+    background-color: black;
+    color: white;
+  }
+  div{
+    background-color: black;
+    color: white;
   }

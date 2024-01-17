@@ -1,16 +1,20 @@
 
   
   header {
-    background-color: white;
+    background-color: #ffffff;
     text-align: center;
-    color: black;
+    color: #000;
   }
   
   footer{
-    background-color: black;
-    color: white;
+    background-color: #2F303A;
+    color: #fff;
   }
   div{
-    background-color: black;
-    color: white;
+    background-color: #2F303A;
+    color: #fff;
+    text-align: center;
+  }
+  li{
+    list-style-type: none;
   }

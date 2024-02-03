@@ -1,18 +1,27 @@
+:root{
+  --button:#2196F3;
+  --header-text:#000000;
+  --cap:#2F303A;
+  --Features:#757575;
+  --Modern-Tehnologies:#212121;
+  --Basement:#FFFFFF;
+  --Our-team:#F5F4FA;
 
+}
   
   header {
-    background-color: #ffffff;
+    background-color: var(--Basement);
     text-align: center;
-    color: #000;
+    color: var(--header-text);
   }
   
   footer{
-    background-color: #2F303A;
-    color: #fff;
+    background-color: var(--cap);
+    color: var(--Basement);
   }
   div{
-    background-color: #2F303A;
-    color: #fff;
+    background-color: var(--cap);
+    color: var(--Basement);
     text-align: center;
   }
   li{

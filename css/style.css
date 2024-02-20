@@ -35,3 +35,14 @@ header{
   li{
     list-style-type: none;
   }
+  .container{
+    text-align: center;
+    width: 1600px;
+    height: 648px;
+    top: 1446px;
+  }
+.image-list{
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+}

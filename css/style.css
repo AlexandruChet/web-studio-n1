@@ -35,14 +35,56 @@ header{
   li{
     list-style-type: none;
   }
-  .container{
-    text-align: center;
-    width: 1600px;
-    height: 648px;
-    top: 1446px;
+  .headline-text{
+    display: flex;
+    margin: 0 auto;
+  background-color: white;
   }
 .image-list{
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
   width: 1000px;
+  background-color: white;
 }
+
+.arti{
+  display: flex;
+  text-align: center;
+
+  display: flex;
+  
+  margin: 0 auto;
+  justify-content: space-between;
+
+  margin-bottom: 94px;
+  margin-top: 94px;
+}
+  .header-header{
+    text-align: center;
+  }
+  .article-text{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    
+  }
+  .main-team{
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 94px;
+    margin-bottom: 94px;
+    width: 1400px;
+    height: 400px;
+    top: 1446px;
+    background-color: white;
+  }
+  .photo{
+    width: 270px;
+    height: 260px;
+  }
+  .services-item{
+    display: flex;
+  }

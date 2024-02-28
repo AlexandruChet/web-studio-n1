@@ -96,3 +96,7 @@ header{
     .my-team{
       text-align: center;
     }
+    .header-logo{
+      background-color: #2196F3;
+      color: #FFFFFF;
+    }

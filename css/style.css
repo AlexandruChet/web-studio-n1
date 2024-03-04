@@ -139,3 +139,38 @@ header{font-family: 'Raleway';}
       background-color: #2196F3;
       color: #FFFFFF;
     }
+    .footer_the_end {
+      background-color: var(--cap);
+      color: var(--Basement);
+      font-size: 26px;
+    
+      letter-spacing: 0.78px;
+      width: 1600px;
+      height: 252px;
+    
+      padding-left: 20px;
+    
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.42px;
+    }
+    .footer_the_end p {
+      color: var(--Features);
+      font-size: 14px;
+    }
+    
+    .big_text {
+      color: #2196f3;
+    }
+    
+    .text_button {
+      background-color: var(--cap);
+      color: var(--Basement);
+      text-align: center;
+    }
+    li {
+      list-style-type: none;
+    }
+    

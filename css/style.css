@@ -5,23 +5,32 @@ body {
 header {
   font-family: "Raleway";
 }
-
+footer {
+  font-family: "Roboto";
+}
 .header_ul {
   display: flex;
 }
 
-.li_text {
-  color: #2196f3;
+
+:root {
+  --button: #2196f3;
+  --header-text: #000000;
+  --cap: #2f303a;
+  --Features: #757575;
+  --Modern-Tehnologies: #212121;
+  --Basement: #ffffff;
+  --Our-team: #f5f4fa;
 }
+
 .header_ul li {
   font-family: "Roboto";
+  font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  letter-spacing: 0.48px;
+  line-height: 26px;
   font-size: 14px;
-  line-height: 16.41px;
-  margin-right: 50px;
-  
+  letter-spacing: 0.48px; 
 }
 
 .header {
@@ -36,55 +45,24 @@ header {
   font-weight: 700;
   letter-spacing: 0.78px;
 }
-.header_nav{
-  margin: 0 auto;
-  display: flex;
-  width: 1170px;
-}
 .header_logo {
   margin-right: 93px;
-  margin-left: 215px;
-  padding-top: 24px;
 }
-.block{
-  margin: 0 auto;
-  width: 1170px;
+.header_text{
+margin-right: 50px;
 }
 
-.block-text{
-  margin-left: 452px;
-  padding-top: 200px;
-  padding-bottom: 280px;
-  margin-right: 452px;
-}
-.block-button{
-  width: 216px;
-  margin: 0 auto;
-  padding-top: 360px;
-  margin-left: 724px;
-  margin-right: 724px;
-  padding-bottom: 200px;
+.header_text_h{
+  margin-top: 24px;
+  color: #2196f3;
+  margin-right: 50px;
 }
 
-
-.header_li {
+.header_li{
   margin-right: 344px;
 }
 
-:root {
-  --button: #2196f3;
-  --header-text: #000000;
-  --cap: #2f303a;
-  --Features: #757575;
-  --Modern-Tehnologies: #212121;
-  --Basement: #ffffff;
-  --Our-team: #f5f4fa;
-}
 
-header {
-  background-color: var(--Basement);
-  color: var(--header-text);
-}
 
 footer {
   background-color: var(--cap);

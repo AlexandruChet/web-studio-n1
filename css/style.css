@@ -166,6 +166,12 @@ li {
   margin-left: 215px;
   padding-top: 60px;
 }
+.block-text{
+  margin: 0 auto;
+  margin-top: 200px;
+  margin-right: 452px;
+  
+}
 
 .text_button {
   background-color: var(--cap);

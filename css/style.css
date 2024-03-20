@@ -168,9 +168,19 @@ li {
 }
 .block-text{
   margin: 0 auto;
-  margin-top: 200px;
+  padding-top: 200px;
   margin-right: 452px;
-  
+  margin-left: 452px;
+  margin-bottom: 200px;
+}
+.block{
+  background-color: #2f303a;
+}
+.block-button{
+  padding-top: 200px;
+  margin-right: 452px;
+  margin-left: 452px;
+  margin-bottom: 200px;
 }
 
 .text_button {

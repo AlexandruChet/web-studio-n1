@@ -218,3 +218,7 @@ li {
 .services-item4::before{
   content: url('./Group.png') ;
 }
+
+.main-team-item{
+  box-shadow: 1px 10px 1px 1px #757575;
+}

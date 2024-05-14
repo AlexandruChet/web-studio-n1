@@ -12,6 +12,16 @@ footer {
   display: flex;
 }
 
+.block-button {
+  font-family: "Roboto";
+  color: #fff;
+  margin-top: 30px;
+  margin-left: 692px;
+  margin-bottom: 200px;
+  background: #2f303a;
+  text-align: center;
+  padding: 5px 5px;
+}
 
 :root {
   --button: #2196f3;
@@ -30,11 +40,10 @@ footer {
   font-weight: 500;
   line-height: 26px;
   font-size: 14px;
-  letter-spacing: 0.48px; 
+  letter-spacing: 0.48px;
 }
 
 .header {
- 
   height: 80px;
   background-color: var(--Basement);
   color: var(--header-text);
@@ -49,34 +58,32 @@ footer {
   margin-top: 24px;
   margin-right: 93px;
 }
-.header_text{
-margin-right: 50px;
+.header_text {
+  margin-right: 50px;
 }
 
-.header_text_h{
+.header_text_h {
   margin-top: 24px;
   color: #2196f3;
   margin-right: 50px;
 }
 
-.header_li{
+.header_li {
   margin-right: 344px;
 }
-.header_ul{
+.header_ul {
   display: flex;
 }
-.li_text { 
-  
+.li_text {
   margin-top: 24px;
 }
-.header_ul li{
+.header_ul li {
   font-family: "Roboto";
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 26px;
   letter-spacing: 0.48px;
-
 }
 .header {
   margin: 0 auto;
@@ -93,26 +100,24 @@ margin-right: 50px;
   line-height: normal;
   letter-spacing: 0.78px;
 }
-.header_nav{
+.header_nav {
   margin: 0 auto;
   display: flex;
   width: 1170px;
 }
 
-.header_logo{
+.header_logo {
   margin-right: 93px;
 }
 
-.header_text{
+.header_text {
   margin-top: 24px;
   margin-right: 50px;
 }
-.header_li{
+.header_li {
   margin-top: 24px;
   margin-right: 344px;
 }
-
-
 
 footer {
   background-color: var(--cap);
@@ -121,10 +126,6 @@ footer {
 div {
   background-color: var(--cap);
   color: var(--Basement);
-}
-.block_text{
-  margin-top: 200px;
-  margin-right: 452px;
 }
 
 li {
@@ -210,21 +211,22 @@ li {
   margin-left: 215px;
   padding-top: 60px;
 }
-.block-text{
+.block-text {
   margin: 0 auto;
   padding-top: 200px;
   margin-right: 452px;
   margin-left: 452px;
   margin-bottom: 200px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 136%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
 }
-.block{
+.block {
   background-color: #2f303a;
-}
-.block-button{
-  padding-top: 200px;
-  margin-right: 452px;
-  margin-left: 452px;
-  margin-bottom: 200px;
 }
 
 .text_button {
@@ -235,11 +237,60 @@ li {
 li {
   list-style-type: none;
 }
+
+.header_logo {
+  text-decoration: none;
+}
+
 .text_footer {
   background-color: #2f303a;
   width: 400px;
   height: 21px;
   margin-left: 215px;
+}
+
+.article-text {
+  position: relative;
+  display: flex;
+}
+
+.article-text li {
+  margin-bottom: 20px;
+}
+
+.article-text img {
+  display: block;
+}
+
+.article-text .caption {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: rgba(35, 19, 53, 0.5); 
+  color: white;
+  padding: 30px;
+}
+
+.h2-article {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+}
+
+.my-team {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+}
+
+.caption {
+  margin-bottom: 20px;
 }
 
 .footer_the_end p {
@@ -250,19 +301,18 @@ li {
 }
 
 .services-item1::before {
-  content: url('./Vector.png'); 
+  content: url("./Vector.png");
 }
-.services-item2::before{
-  content: url('./Vector\ \(1\).png');
-  
+.services-item2::before {
+  content: url("./Vector\ \(1\).png");
 }
-.services-item3::before{
-  content: url('./astronaut\ 1.png');
+.services-item3::before {
+  content: url("./astronaut\ 1.png");
 }
-.services-item4::before{
-  content: url('./Group.png') ;
+.services-item4::before {
+  content: url("./Group.png");
 }
 
-.main-team-item{
-  box-shadow: 12px 13px 12px -5px rgba(0,0,0,0.17);
+.main-team-item {
+  box-shadow: 12px 13px 12px -5px rgba(0, 0, 0, 0.17);
 }

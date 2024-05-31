@@ -28,6 +28,13 @@ footer {
   display: flex;
 }
 
+.header_text_3::before {
+  position: absolute;
+  left: 23px;
+  content: url(./finger\ 1.svg);
+  top: 30px;
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -129,8 +136,14 @@ footer {
   display: flex;
 }
 .li_text {
+  width: 100%;
+  width: 142px;
+  height: 16px;
   margin-left: 883px;
   margin-top: 32px;
+}
+.li_text::before {
+  content: url("./Vector.svg");
 }
 .header_ul li {
   font-family: "Roboto";

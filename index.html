@@ -88,7 +88,12 @@
             <img src="img/img.jpg" alt="" height="200px" />
             <h3 class="headline-text">Ігор Дем'яненко</h3>
             <p class="p-text">Product Designer</p>
-            <img class="img_instagram" id="img_svg" src="svg/instagram 2.svg" alt="" />
+            <img
+              class="img_instagram"
+              id="img_svg"
+              src="svg/instagram 2.svg"
+              alt=""
+            />
             <img id="img_svg" src="svg/Group.svg" alt="" />
             <img id="img_svg" src="svg/facebook 1.svg" alt="" />
             <img id="img_svg" src="svg/linkedin 1.svg" alt="" />
@@ -154,13 +159,47 @@
           </ul>
         </div>
       </div>
-            <div class="wrapper">
-              <h1 class="h1_class">Підпишіться на розсилку</h1>
-              <nav>
-              <h3 class="input_name">E-Mail</h3>
-              <input type="text" id="E_mail">
-              <button class="subscribe">Підписатися</button>
-              </nav></div> 
+      <button class="subscribe" data-modal-open>Підписатися</button>
+      <div class="wrapper">
+        <h1 class="h1_class">Підпишіться на розсилку</h1>
+        <nav>
+          <h3 class="input_name">E-Mail</h3>
+          <input type="text" id="E_mail" />
+        </nav>
+      </div>
+      <div class="backdrop" data-modal>
+        <form class="modal">
+            <button class="btn" data-modal-close>X</button>
+          <h4 class="modal-title">
+            Leave your contacts and we will call you back
+          </h4>
+  
+          <label class="modal-name" for="">
+            name
+            <input class="modal-input" type="text" />
+          </label>
+  
+          <label class="modal-name" for="">
+            phone
+            <input class="modal-input" type="tel" />
+          </label>
+  
+          <label class="modal-name" for="">
+            email
+            <input class="modal-input" type="email" />
+          </label>
+  
+          <label class="modal-name" for="">
+            Comment
+            <textarea name="" class="modal-text-area" id=""></textarea>
+          </label>
+          <label for="" class="madal_name">
+            <input type="checkbox">
+            <span>Lorem ipsum dolor sit amet consectetur.</span>
+            <button class="send">Send</button>
+          </label>
+        </form>
+      </div>
 
       <div class="box">
         <h3 class="join_us">приєднуйтесь</h3>
@@ -181,12 +220,13 @@
           </ul>
         </div>
       </div>
-      <footer class="footer_the_end">
-        <h1 class="big_text">Webstudio</h1>
-        <h3 class="text_footer">м. Київ, пр-т Лесі Українки, 26</h3>
-        <p class="newtext">info@example.com</p>
-        <p class="newtext">+38 096 111 11 11</p>
-      </footer>
     </main>
+    <footer class="footer_the_end">
+      <h1 class="big_text">Webstudio</h1>
+      <h3 class="text_footer">м. Київ, пр-т Лесі Українки, 26</h3>
+      <p class="newtext">info@example.com</p>
+      <p class="newtext">+38 096 111 11 11</p>
+    </footer>
+    <script src="Js/script.js"></script>
   </body>
 </html>

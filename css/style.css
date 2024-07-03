@@ -22,6 +22,49 @@ footer {
   --Our-team: #f5f4fa;
 }
 
+.ul,
+.header_ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.ul-li,
+.header_text_1,
+.header_text,
+.header_li,
+.header_text_3,
+.li_text {
+  position: relative;
+  font-size: 30px;
+  cursor: pointer;
+}
+.ul-li::after,
+.header_text_1::after,
+.header_text::after,
+.header_li::after,
+.header_text_3::after,
+.li_text::after {
+  content: "";
+  position: absolute;
+  background: black;
+  top: 32px;
+  right: 0px;
+  height: 3px;
+  width: 100%;
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: all 0.6s;
+}
+.ul-li:hover::after,
+.header_text_1:hover::after,
+.header_text:hover::after,
+.header_li:hover::after,
+.header_text_3:hover::after,
+.li_text:hover::after {
+  transform: translateX(0px);
+  opacity: 1;
+}
+
 .header_ul {
   height: 600px;
   width: 100%;
@@ -135,6 +178,7 @@ footer {
 .header_ul {
   display: flex;
 }
+
 .li_text {
   width: 100%;
   width: 142px;
@@ -145,6 +189,7 @@ footer {
 .li_text::before {
   content: url("./Vector.svg");
 }
+
 .header_ul li {
   font-family: "Roboto";
   font-size: 16px;
@@ -183,10 +228,6 @@ footer {
 .header_text {
   margin-top: 32px;
   margin-right: 50px;
-}
-.header_li {
-  margin-top: 32px;
-  margin-right: 344px;
 }
 
 footer {
@@ -291,6 +332,7 @@ li {
 }
 
 #E_mail {
+  color: #ffffff;
   background-color: #2f303a;
 }
 

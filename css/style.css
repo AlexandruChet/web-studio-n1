@@ -175,9 +175,6 @@ footer {
   margin-top: 32px;
   margin-left: 313px;
 }
-.header_ul {
-  display: flex;
-}
 
 .li_text {
   width: 100%;
@@ -248,7 +245,6 @@ li {
   width: 1170px;
   margin: 0 auto;
   justify-content: space-between;
-
   margin-bottom: 94px;
   margin-top: 50px;
 }
@@ -468,10 +464,6 @@ li {
   list-style-type: none;
 }
 
-.header_logo {
-  text-decoration: none;
-}
-
 .text_footer {
   background-color: #2f303a;
   width: 400px;
@@ -485,7 +477,11 @@ li {
 }
 
 .article-text li {
+  border-radius: 50px;
   margin-bottom: 20px;
+  box-shadow: 0 0 20px rgb(136, 141, 169), 0 0 40px rgba(63, 35, 59, 0.6),
+    0 0 60px rgba(231, 230, 233, 0.6);
+  color: #ffffff;
 }
 
 .article-text img {
@@ -493,6 +489,7 @@ li {
 }
 
 .article-text .caption {
+  border-radius: 50px;
   position: absolute;
   bottom: -20px;
   width: 316px;
@@ -622,4 +619,131 @@ li {
   padding: 15px;
   background-color: rgb(255, 255, 255);
   transform: translate(-50%, -50%);
+}
+
+@media (max-width: 480px) {
+}
+
+@media (max-width: 1200px) {
+  .header {
+    background-color: #ffffff;
+    width: 1500px;
+  }
+
+  .footer_the_end {
+    background-color: #2f303a;
+    width: 1500px;
+    height: 252px;
+    padding-left: 20px;
+    font-family: "Roboto";
+    font-style: normal;
+    line-height: 24px;
+  }
+
+  .block-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 187%;
+    letter-spacing: 0.06em;
+    background-color: #2196f3;
+    text-align: center;
+    color: #fff;
+    font-family: "Roboto";
+    color: #fff;
+    margin-left: 750px;
+    margin-bottom: 200px;
+    text-align: center;
+    padding: 5px 5px;
+  }
+
+  .main-team {
+    background-color: #aaaaaa;
+    width: 1500px;
+  }
+
+  .services {
+    margin-left: 200px;
+  }
+
+  .services-list li {
+    margin-right: 150px;
+  }
+
+  .article-text {
+    margin-left: 100px;
+  }
+
+  .block {
+    width: 1500px;
+  }
+
+  .subscribe {
+    margin-left: 1200px;
+  }
+
+  .wrapper {
+    margin-left: 1200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    background-color: #ffffff;
+    width: 1500px;
+  }
+
+  .footer_the_end {
+    background-color: #2f303a;
+    width: 1500px;
+    height: 252px;
+    padding-left: 20px;
+    font-family: "Roboto";
+    font-style: normal;
+    line-height: 24px;
+  }
+
+  .block-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 187%;
+    letter-spacing: 0.06em;
+    background-color: #2196f3;
+    text-align: center;
+    color: #fff;
+    font-family: "Roboto";
+    color: #fff;
+    margin-left: 750px;
+    margin-bottom: 200px;
+    text-align: center;
+    padding: 5px 5px;
+  }
+
+  .main-team {
+    background-color: #aaaaaa;
+    width: 1500px;
+  }
+
+  .services {
+    margin-left: 200px;
+  }
+
+  .services-list li {
+    margin-right: 150px;
+  }
+
+  .article-text {
+    margin-left: 100px;
+  }
+
+  .block {
+    width: 1500px;
+  }
+
+  .subscribe {
+    margin-left: 1200px;
+  }
+
+  .wrapper {
+    margin-left: 1200px;
+  }
 }
